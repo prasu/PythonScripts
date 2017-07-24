@@ -1,0 +1,19 @@
+package is a special type of module
+To check the type try type(<name>)
+__path__ gives the location if it is a package or a AttibuteError in case of file
+sys.path , sys.path[0],sys.path.append()
+PYTHONPATH; export PYTHONPATH=<path>
+__init__.py makes the package a module
+__file__ gives the sources of that package that are imported
+
+a[start:end:step] # start through not past end, by step
+a[-1]    # last item in the array
+a[-2:]   # last two items in the array
+a[:-2]   # everything except the last two items
+
+relative imports from .reader import Reader .in same package ..for 2 levels up
+
+namespace package
+
+result = true_value if conditon else false_value
+
